@@ -1,5 +1,5 @@
 <div *ngIf="selected">
-  <app-product-detail [product]="selected"></app-product-detail>
+	<app-product-detail [product]="selected"></app-product-detail>
 </div>
 <div class="row">
 	<div class="col-lg-4 col-md-6 mb-4" *ngFor="let product of products">
@@ -13,7 +13,7 @@
 					<p class="card-text">{{product.desc}}</p>
 				</div>
 				<div class="card-footer">
-          <button class="btn btn-primary" (click)="showDetail(product)">Detail</button>
+					<button class="btn btn-primary" (click)="showDetail(product)">Detail</button>
 				</div>
 		</div>
 	</div>
