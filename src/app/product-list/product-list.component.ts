@@ -1,23 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { data } from '../MockData';
 import { Product } from '../Product';
+import { ProductService } from '../product.service';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-
-  products = data;
-  selected : Product;
-  constructor() { }
+  selected: Product;
+  products: Product[];
+  constructor(
+    private productService: ProductService
+  ) { }
 
   ngOnInit() {
-    console.log(this.products);
+    this.getProducts();
   }
-  
-  detailsProduct(product){
+  showDetail(product){
     this.selected = product;
-    console.log(this.selected);
+  }
+  getProducts(){
+    this.products = this.productService.getProducts();
   }
 }
