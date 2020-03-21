@@ -1,73 +1,66 @@
 import { Product } from 'Product';
 export const data: Product[] = [
   {
-    "id": "84",
-    "name": "Theem",
+    "id": "1",
+    "name": "A",
     "price": "14.00",
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Dynamic Data Designer"
+    "description": "SP 1"
   },
   {
-    "id": "85",
-    "name": "Gorgeous Wooden Shirt",
+    "id": "2",
+    "name": "B",
     "price": "874.00",
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Senior Operations Designer"
+    "description": "SP 2"
   },
   {
-    "id": "86",
-    "name": "new product 9",
+    "id": "3",
+    "name": "C",
     "price": "123",
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "National Marketing Executive"
+    "description": "SP 3"
   },
   {
-    "id": "87",
-    "name": "sgsaga",
+    "id": "4",
+    "name": "D",
     "price": 5,
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Dynamic Communications Technician"
+    "description": "SP 4"
   },
   {
-    "id": "88",
-    "name": "Sleek Fresh Sausages",
+    "id": "5",
+    "name": "E",
     "price": "555.00",
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Customer Usability Manager"
+    "description": "SP 5"
   },
   {
-    "id": "89",
-    "name": "Rustic Fresh Chair",
+    "id": "6",
+    "name": "F",
     "price": "761.00",
     "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "International Mobility Associate"
+    "description": "SP 6"
   },
   {
-    "id": "90",
-    "name": "Ergonomic Rubber Towels",
+    "id": "7",
+    "name": "G",
     "price": "729.00",
  "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Dynamic Directives Agent"
+    "description": "SP 7"
   },
   {
-    "id": "91",
-    "name": "Refined Concrete Chair",
+    "id": "8",
+    "name": "H",
     "price": "78.00",
  "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Central Mobility Representative"
+    "description": "SP 8"
   },
   {
-    "id": "92",
-    "name": "Ergonomic Cotton Table",
+    "id": "9",
+    "name": "I",
     "price": "844.00",
  "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "Forward Security Analyst"
-  },
-  {
-    "id": "93",
-    "name": "Handcrafted Steel Sausages",
-    "price": "754.00",
- "image": "https://dummyimage.com/275x175/000/fff",
-    "description": "District Division Assistant"
+    "description": "SP 9"
   }
 ]
